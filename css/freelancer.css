@@ -480,14 +480,16 @@ div#maincontent {
 }
 .skills .content .development-wrapper .skills-bar-container li .progressbar-title {
   margin-bottom: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 .skills .content .development-wrapper .skills-bar-container li .progressbar-title h3 {
   display: inline-block;
 }
 .skills .content .development-wrapper .skills-bar-container li .progressbar-title .percent {
-  position: absolute;
-  right: 20px;
-  font-size: .8em;
+  font-size: 1em
 }
 .skills .content .development-wrapper .skills-bar-container li .progressbar-title .prof-desc {
   position: absolute;
