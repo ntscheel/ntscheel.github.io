@@ -95,7 +95,7 @@ header .img-responsive{
     width: 200px;
   }
   header .container {
-    padding-top: 200px;
+    padding-top: 150px;
     padding-bottom: 100px;
   }
   header .intro-text .name {
@@ -456,12 +456,28 @@ div#maincontent {
 .portfolio .content .projects .project .project-description {
   color: #444;
 }
+.seeMoreLink {
+	padding: 5px 9px;
+    font-weight: 400;
+    border: 2px solid #6bd2db;
+    color: #6bd2db;
+	border-radius: 290486px;
+}
+.seeMoreLink:hover, .seeMoreLink:focus, .seeMoreLink:active {
+	border-color: #ffbe4f;
+	color: #ffbe4f;
+	text-decoration: none;
+}
 
 /*##### SKILLS SECTION #####*/
 .skills {
   padding: 70px 20px;
   color: #fff;
   background-color: #6bd2db;
+}
+
+.skills-bar-container h3 {
+	font-size: 20px;
 }
 .skills .content .development-wrapper .development-title {
   font-size: 2em;
