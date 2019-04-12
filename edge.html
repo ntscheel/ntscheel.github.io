@@ -1,0 +1,106 @@
+<head>
+	<title>Edge of the Empire</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+    <meta name="author" content="Nick Scheel">
+	<!-- Styles -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="edge/edge.css" rel="stylesheet">
+	<!-- Scripts -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="edge/edge.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="main-content">
+		<ul class="nav nav-tabs" id="myTab" role="tablist">
+			<li class="nav-item active">
+				<a class="nav-link active" id="dice-tab" data-toggle="tab" href="#dice" role="tab" aria-controls="dice" aria-selected="true">Dice</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link " id="rules-tab" data-toggle="tab" href="#rules" role="tab" aria-controls="rules" aria-selected="false">Rules</a>
+			</li>
+		</ul>
+		<div class="tab-content" id="myTabContent">
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<!-- |   Tab 1 - Dice Roller   | -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<div class="tab-pane fade active in" id="dice" role="tabpanel" aria-labelledby="dice-tab">
+				<div class="app-wrap">
+					<h3 class="header">Dice Select</h3>
+					<div id="dice-select">
+						<div class="dice proficiency-die"></div>
+						<div class="dice ability-die"></div>
+						<div class="dice boost-die"></div>
+						<div class="dice setback-die"></div>
+						<div class="dice difficulty-die"></div>
+						<div class="dice challenge-die"></div>
+					</div>
+					<h3 class="header">Dice Pool</h3>
+					<div id="dice-pool">
+						<p class="message" id="pool-message">Select a die above to add it to the dice pool</p>
+						<div class="proficiency-die-wrapper"></div>
+						<div class="ability-die-wrapper"></div>
+						<div class="boost-die-wrapper"></div>
+						<div class="setback-die-wrapper"></div>
+						<div class="difficulty-die-wrapper"></div>
+						<div class="challenge-die-wrapper"></div>
+					</div>
+					<h3 class="header">Results</h3>
+					<div id="results-wrapper"></div>
+					<div class="btn-wrapper">
+						<button type="button" class="btn btn-danger btn-lg" onclick="clearPool();"><i class="fa fa-ban"></i></button>
+						<button type="button" class="btn btn-primary btn-lg" onclick="getResults();">Roll!</button>
+					</div>
+				</div>
+			</div>
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<!-- |   Tab 2 - Rules Reference   | -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<div class="tab-pane fade" id="rules" role="tabpanel" aria-labelledby="rules-tab">
+				<p><a targe="_bank" href="PlayerActionSheet3.0.pdf">Actions / Manouvers Cheat Sheet</a></p>
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#rules_collapse1">
+							Actions</a>
+						</h4>
+						</div>
+						<div id="rules_collapse1" class="panel-collapse collapse">
+						<div class="panel-body">
+							<img src="edge/edge-img/rules/actions.png"/>
+						</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#rules_collapse2">
+							Manouvers</a>
+						</h4>
+						</div>
+						<div id="rules_collapse2" class="panel-collapse collapse">
+						<div class="panel-body">
+							<img src="edge/edge-img/rules/manouvers.png"/>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="svg-container" style="display: none;">
+	<svg width="35" height="35" version="1.1" xmlns="http://www.w3.org/2000/svg">
+		<rect id="d6" x="2" y="4" width="30" height="30" stroke="black" stroke-width="2"/>
+	</svg>
+	<svg width="40" height="35" version="1.1" xmlns="http://www.w3.org/2000/svg">
+		<polygon id="d12" points="11 2, 2 18, 11 34, 27 34, 36 18, 27 2" stroke="black" stroke-width="2"/>
+	</svg>
+	<svg id="d8" width="30" height="35" version="1.1" xmlns="http://www.w3.org/2000/svg">
+		<polygon points="15 2, 2 18, 15 34, 28 18" stroke="black" stroke-width="2"/>
+	</svg>
+</div>
+</body>
