@@ -82,9 +82,6 @@ function getResults() {
 	for(var j=0; j < Math.abs(resultsObj.totalAdv); j++){
 		$('<div class="results-icon ' + advIcon + '"></div>').appendTo($advDiv);
 	}
-	for(var j=0; j < Math.abs(resultsObj.totalAdv); j++){
-		$('<div class="results-icon ' + advIcon + '"></div>').appendTo($advDiv);
-	}
 	$resultsWrap.append($sucDiv).append($advDiv);
 	
 }
