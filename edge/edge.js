@@ -145,6 +145,7 @@ function clearPool(){
 		$(this).remove();
 	});
 	$("#pool-message").fadeIn();
+	$('#results-wrapper').empty();
 }
 
 function initDiceObj() {
