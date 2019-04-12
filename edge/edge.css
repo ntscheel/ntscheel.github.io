@@ -1,6 +1,19 @@
 /* Global Sytles */
 .main-content {
+	position: relative;
 	padding: 20px 0;
+	height: 100%;
+	max-height: 800px;
+	max-width: 450px;
+	margin: 0 auto;
+}
+@media (min-width: 450px){
+	.main-content {
+		border: 1px solid black;
+		border-radius: 20px;
+		margin-top: 10%;
+		height: 85%;
+	}
 }
 
 /* Tabs */
