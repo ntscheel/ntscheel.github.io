@@ -80,7 +80,7 @@
 		 "level":{
 			"1":[
 				{
-					"featuretextwithbullet":"Magical Tinkering: You may imbue a number of Tiny nonmagical objects (up to your Int modifier) as an action with one of the following magical properties. You can end the effect as an action.\n	- The object sheds bright light in a 5-foot radius and dim light for an additional 5 feet\n	- You utter a message (up to 6 seconds long) that can be heard up to 10 feet away whenever the object is tapped by a creature\n	- The object continuously emits your choice of an odor or a nonverbal sound perceivable up to 10 feet away\n	- A static visual effect appears on one of the object's surfaces. This effect can be a picture, up to 25 words of text, lines and shapes, or a mixture of these elements"
+					"featuretextwithbullet":"Magical Tinkering: You may imbue a number of Tiny nonmagical objects (up to your Int modifier) as an action with one of the following magical properties. You can end the effect as an action.\n   - The object sheds bright light in a 5-foot radius and dim light for an additional 5 feet\n   - You utter a message (up to 6 seconds long) that can be heard up to 10 feet away whenever the object is tapped by a creature\n   - The object continuously emits your choice of an odor or a nonverbal sound perceivable up to 10 feet away\n   - A static visual effect appears on one of the object's surfaces. This effect can be a picture, up to 25 words of text, lines and shapes, or a mixture of these elements"
 				},
 				{
 					"featuretextwithbullet":"Spellcasting: You gain the ability to cast spells. Your spell ability modifier is Intelligence. You can use an arcane focus for your Artificer spells."
@@ -348,7 +348,7 @@
 						  }
 					}
 				],
-				"hideifprerequisitesnotmet": "true"
+				"hideifprerequisitesnotmet": "true",
 				"effects":[
 					{
 					 "featuretextwithbullet":"Boots of the Winding Path (Item: a pair of boots; Requires attunment) - While wearing these boots, a creature can teleport up to 15 feet as a bonus action to an unoccupied space the creature can see. The creature must have occupied that space at some point during the current turn."
@@ -399,7 +399,7 @@
 						  }
 					}
 				],
-				"hideifprerequisitesnotmet": "true"
+				"hideifprerequisitesnotmet": "true",
 				"effects":[
 					{
 					 "featuretextwithbullet":"Many-Handed Pouch (Item: 2-5 pouches) - The infused pouches all share one interdimensional space of the same capacity as a single pouch. Thus, reaching into any of the pouches allows access to the same storage space. A pouch operates as long as it is within 100 miles of another one of the pouches; the pouch is otherwise empty and won't accept any contents. If this infusion ends, the items stored in the shared space move into one of the pouches, determined at random. The rest of the pouches become empty."
@@ -420,7 +420,7 @@
 						  }
 					}
 				],
-				"hideifprerequisitesnotmet": "true"
+				"hideifprerequisitesnotmet": "true",
 				"effects":[
 					{
 					 "featuretextwithbullet":"Radiant Weapon (Item: weapon; Requires attunment) - Grants a +1 bonus to attack and damage rolls made with this weapon. As a bonus action, the wielder can cause it to shed bright light in a 30ft radius and dim light for an additional 30ft, and can extinguish it as a bonus action. Once per rest as a reaction immediately after being hit by a melee attack, the wielder can cause the attacker to be blinded until the end of the attacker's next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC."
@@ -451,7 +451,7 @@
 						  }
 					}
 				],
-				"hideifprerequisitesnotmet": "true"
+				"hideifprerequisitesnotmet": "true",
 				"effects":[
 					{
 					 "featuretextwithbullet":"Repulsion Shield (Item: a shield; Requires attunment) - A creature gains a +1 bonus to AC while wielding this shield. Once per rest after being hit by a melee attack, the weilder can use a reaction to push the attacker up to 15ft away."
@@ -472,7 +472,7 @@
 						  }
 					}
 				],
-				"hideifprerequisitesnotmet": "true"
+				"hideifprerequisitesnotmet": "true",
 				"effects":[
 					{
 					 "featuretextwithbullet":"Resistant Armor (Item: a suite of armor; Requires attunment) - While wearing this armor, a creature has resistance to one of the following damage types, which you choose when you infuse the item: acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder."
@@ -488,7 +488,7 @@
 					 "featuretextwithbullet":"Returning Weapon Item (Item: a weapon with the thrown property) - This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder's hand immediately after it is used to make a ranged attack."
 					}
 				]
-			},
+			}
 		 ]
 		}
 	],
