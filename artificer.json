@@ -239,6 +239,9 @@
 			"level":{
 				"3":[
 					{
+						"featuretext":"Artificer Specialist: Alchemist"
+					},
+					{
 						"featuretextwithbullet":"Tools of the Trade: You gain profiency with alchemist's supplies and the herbalism kit, and aquire them for free. Also, crafting a magic item in the potion category takes a quarter of the normal time and costs half as much of the usual gold."
 					},
 					{
@@ -345,6 +348,9 @@
 			"level":{
 				"3":[
 					{
+						"featuretext":"Artificer Specialist: Archivist"
+					},
+					{
 						"featuretextwithbullet":"Tools of the Trade: You gain profiency with calligrapher's supplies and the forgery kit, and aquire them for free. Also, crafting a magic item in the scroll category takes a quarter of the normal time and costs half as much of the usual gold."
 					},
 					{
@@ -444,6 +450,9 @@
 			"previewtext":"Specializes in using magic to create explosions and defensive positions, as well as magic-infused sidearms. ",
 			"level":{
 				"3":[
+					{
+						"featuretext":"Artificer Specialist: Artillerist"
+					},
 					{
 						"featuretextwithbullet":"Tools of the Trade: You gain profiency with smith's tools and the woodcarver's tools, and aquire them for free. You may use rods, staffs, and wands as a spellcasting focus, and gain a non-magical wand for free. Also, crafting a magic item in the wand category takes a quarter of the normal time and costs half as much of the usual gold."
 					},
@@ -551,10 +560,13 @@
 			"level":{
 				"3":[
 					{
+						"featuretext":"Artificer Specialist: Battle Smith"
+					},
+					{
 						"featuretextwithbullet":"Tools of the Trade: You gain profiency with leatherworker's tools and smith's tools, and aquire them for free. Also, crafting a magic item in the armor category takes a quarter of the normal time and costs half as much of the usual gold."
 					},
 					{
-						"featuretextwithbullet":"Arcane Turret: The tinkering in your free time has borne you a faithful companion, an iron defender. See the rulebook for details."
+						"featuretextwithbullet":"Iron Defender: The tinkering in your free time has borne you a faithful companion, an iron defender. See the rulebook for details."
 					},
 					{
 						"addtoolproficiencies":[
