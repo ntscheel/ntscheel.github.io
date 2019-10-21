@@ -547,7 +547,7 @@
 			"name":"Battle Smith",
 			"displayname":"Battle Smith",
 			"class":"Artificer",
-			"previewtext":"aAn expert at defending others and repairing both materiel and personnel",
+			"previewtext":"An expert at defending others and repairing both materiel and personnel.",
 			"level":{
 				"3":[
 					{
@@ -753,12 +753,22 @@
 					]
 				},
 				{
+					"name":"Repeating Shot",
+					"displayname":"Repeating Shot",
+					"previewtext":"Unlimited ammo for a ranged weapon",
+					"effects":[
+						{
+							"featuretextwithbullet":"Repeating Shot (Item: a weapon with the ammunition property; Requires attunment) - Grants a +1 bonus to attack and damage rolls made with it, and it ignores the loading property if it has it. The weapon requires no ammunition."
+						}
+					]
+				},
+				{
 					"name":"Replicate Magic Item",
 					"displayname":"Replicate Magic Item",
 					"previewtext":"Replicate a specific magic item",
 					"effects":[
 						{
-							"featuretextwithbullet":"Replicate Magic Item (Item: varies; May require attunment) - When you learn this infusion, choose a magic item from the Replicable Magic Items table. You gain the ability to infuse a  mundane item to become your chosen magical item."
+							"featuretextwithbullet":"Replicate Magic (Item: varies; May require attunment) - When you learn this infusion, choose a magic item from the Replicable Magic Items table. You gain the ability to infuse a  mundane item to become your chosen magical item."
 						}
 					]
 				},
